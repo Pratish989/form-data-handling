@@ -1,0 +1,13 @@
+1. whenever you are making a form and make the method of the form post and the action will /submit like this 
+<form id="myForm" action="/submit" method="POST">
+
+
+2. In your HTML form, you can use the name attribute to specify the name of the form field,
+ and that's what you should be looking for in your server-side code to retrieve the form data.
+ (form likhte waqt name wala imp hai aur usi se server side code ko pata chalega kis exact chiz ki baat ho rahi hai)
+
+
+3. for using this -> req.body.name or req.body.city we need to use body parser 
+
+4. for mongo db we have to first connect the database with mongoose and then we have to create a schema for all the collections and then 
+we have to add/store the data
